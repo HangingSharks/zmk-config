@@ -9,6 +9,7 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
+{
 behaviors {
     bklat: beakl_at {
         compatible = "zmk,behavior-mod-morph";
