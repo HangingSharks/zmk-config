@@ -9,7 +9,6 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
-
 behaviors {
     bklat: beakl_at {
         compatible = "zmk,behavior-mod-morph";
@@ -18,7 +17,6 @@ behaviors {
         bindings = <&kp DOT>, <&kp AT>;
         mods = <(MOD_LSFT|MOD_RSFT)>;
     }
-
 };
 
         keymap {
