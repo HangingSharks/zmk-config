@@ -13,6 +13,7 @@
         bklat: beakl_at {
             compatible = "zmk,behavior-mod-morph";
             label = "BEAKL_AT";
+			#binding-cells = <2>;
             bindings = <&kp DOT>, <&kp AT_SIGN>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         }
